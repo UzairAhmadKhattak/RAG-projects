@@ -3,9 +3,7 @@
 # 2) split the resume into chunks
 # 3) embed the chunks using the openai embedding model
 # 4) store the chunks in a postgres vector table
-# 5) convert the user query into a vector
-# 6) query the vector table for the most similar chunks
-# 7) return the most similar chunks to the user
+# ... more steps in the quering_db folder
 
 from langchain_community.document_loaders.pdf import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
